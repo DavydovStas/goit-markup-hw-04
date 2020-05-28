@@ -1,0 +1,222 @@
+/* Выделение активной страницы */
+
+.current {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  color: var(--primary-white-color);
+  background-color: var(--primary-text-color);
+}
+
+.hero .title {
+  margin: 0;
+
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  /* text-transform: uppercase; */
+}
+
+.hero .link {
+  display: inline-block;
+  border-radius: 4px;
+  min-width: 200px;
+  padding: 10px 32px;
+  margin-top: 38px;
+
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero .link:focus {
+  color: var(--accent-color);
+}
+
+.hero .link {
+  color: inherit;
+}
+
+/* Секция Преимуществ компании */
+
+/* .advantages * {
+  outline: 1px black solid;
+} */
+
+.advantages .container {
+  display: flex;
+  text-align: left;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantages li + li {
+  margin-left: 30px;
+}
+
+.advantages li {
+  width: 270px;
+}
+
+.advantages .title {
+  margin-top: 30px;
+
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
+
+.advantages p {
+  margin-top: 10px;
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Cекция Сфер Деятельности */
+
+.activity .grand-title,
+.activity .title {
+  color: var(--title-text-color);
+}
+
+.activity .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.activity .grand-title {
+  display: inline-block;
+  /* margin-top: 94px; */
+  margin-bottom: 50px;
+
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.activity ul {
+  display: flex;
+}
+
+.activity li + li {
+  margin-left: 30px;
+}
+
+.activity .title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Секция Команды */
+
+.team {
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team .team-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.team-list > li + li {
+  margin-left: 30px;
+}
+
+.team-list ul {
+  display: flex;
+}
+
+.team .grand-title,
+.team .title {
+  color: var(--title-text-color);
+}
+
+.team .grand-title {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.team .title {
+  margin-top: 30px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.cpecialazed {
+  margin-top: 10px;
+
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-list ul {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.team .link {
+  color: inherit;
+}
+
+.team .link:hover,
+.team .link:focus {
+  color: var(--accent-color);
+}
+
+/* Секция Постоянных клиентов */
+
+.clients .container {
+  padding: 94px 0;
+}
+
+.clients .title {
+  margin: 0;
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  /* text-align: center; */
+}
+
+.clients ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.clients li {
+  width: 170px;
+}
+
+.clients li + li {
+  margin-left: 30px;
+}
+
+.clients .link {
+  color: inherit;
+}
+
+.clients .link:hover,
+.clients .link:focus {
+  color: var(--accent-color);
+}
