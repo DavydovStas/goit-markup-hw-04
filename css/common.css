@@ -30,7 +30,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 ul {
@@ -84,6 +84,12 @@ h6 {
 }
 
 /* Хедер */
+
+.mail-icon {
+  width: 16px;
+  height: 11px;
+  fill: currentColor;
+}
 
 .header .container {
   display: flex;
